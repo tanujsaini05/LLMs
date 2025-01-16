@@ -1,6 +1,7 @@
 from crewai import Agent
 from tools import *
 from dotenv import load_dotenv
+from keys import GOOGLE_API_KEY
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
@@ -9,7 +10,7 @@ model = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash",
     verbose = True,
     temperature=0.5,
-    google_api_key = os.getenv("GOOGLE_API_KEY")
+    google_api_key = GOOGLE_API_KEY
 )
 news_research_agent = Agent(
     role = "Senior Researcher",
