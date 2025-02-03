@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from key import google_api_key
+from Bot.key import google_api_key
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_google_genai import ChatGoogleGenerativeAI
