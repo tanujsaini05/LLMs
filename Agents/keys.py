@@ -1,2 +1,0 @@
-GOOGLE_API_KEY = "AIzaSyDrEux_4FBib-avY7xxna-_6lu7sfYkVZY"
-SERPER_API_KEY = "712e72ffecebdefcc6884119b3b08711b62144f8"
